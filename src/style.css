@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(to bottom right, blue, white);
+}
+
+.currentContainer {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    margin-top: 10vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+    padding: 1.5vw;
+    box-shadow: 0 0 20px rgb(0, 0, 100);
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.column {
+    display: grid;
+    gap: 2vh;
+}
+
+.city {
+    font-size: 4vh;
+}
+
+.feelsLike {
+    font-size: 2vh;
+}
+
+.currentTemp {
+    font-size: 2vh;
+}
+
+.timeContainer {
+    display: grid;
+    gap: .5vh;
+}
+
+.conditionText {
+    font-size: 1.5vh;
+    margin-top: 1vh;
+}
+
+.humidity {
+    margin-top: 1vh;
+}
+
+.secondary {
+    gap: 1.5vh;
+}
+
+input,
+button {
+    border-radius: 1vh;
+    box-shadow: 0 0 10px rgb(0, 0, 100);
+    padding: 0.25vh 1vw 0.25vh;
+    margin: 0.25vw;
+}

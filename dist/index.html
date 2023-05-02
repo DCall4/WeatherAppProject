@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <script src="main.js" defer></script>
+    <div class="currentContainer">
+        <div class="main column">
+            <div class="city"></div>
+            <div class="timeContainer">
+                <div class="dayOfWeek"></div>
+                <div class="date"></div>
+                <div class="localTime"></div>
+            </div>
+            <div class="feelsLike"></div>
+        </div>
+        <div class="conditionContainer column">
+            <div class="conditionText"></div>
+            <div class="conditionIconContainer"></div>
+            <div class="currentTemp"></div>
+        </div>
+        <div class="secondary column">
+            <div class="humidity"></div>
+            <div class="wind"></div>
+            <div class="uv"></div>
+            <div class="sunRise"></div>
+            <div class="sunSet"></div>
+        </div>
+    </div>
+    <div class="searchContainer">
+        <input type="text" id="location" placeholder="Enter City or Zip code">
+        <button id="locationBtn">Search</button>
+    </div>
+    <div class="forecastContainer">
+
+    </div>
+</body>
+</html>
